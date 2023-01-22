@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="RadioMessage" id=",?D(P%O5!s:fK/sjE?~[">0message1</variable><variable type="RadioMessage" id="t?.!`Q+dkdeU3fLjaYC%">0Star</variable><variable id="rZz`z{eTkoeyE+?K$a#1">mySprite</variable><variable id="}}yz~B3Vz;gT^%/jj4F|">mySprite2</variable><variable type="KIND_SpriteKind" id="R*fXVATXor7!_0+.5T9y">Player</variable><variable type="KIND_SpriteKind" id="4qd`W[d5:~=[Palshz4!">Projectile</variable><variable type="KIND_SpriteKind" id="(_#AAEw5(d~UNl+ahcra">Food</variable><variable type="KIND_SpriteKind" id="3p_J@t8`_k#7G*M)^wzW">Enemy</variable></variables><block type="pxt-on-start" id="L?MkkvUhEH9m3koz2M=G" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id=")ImBnhV?x*u/%KI.1sGF"><value name="ID"><shadow type="math_number_minmax" id="=k^u}k~wrmZMKSq=f(uI"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="radioBroadcastMessage" id="6LAaFxvT;N@n$K5dP1M9"><value name="msg"><shadow type="radioMessageCode" id="=u3Z)T,7#~}0u$5HGy#F"><field name="MEMBER">0Star</field></shadow></value></block></next></block></statement></block><block type="radioOnMessageReceived" id="uF$Q2Ht08(_jo6oaym]n" x="50" y="290"><value name="msg"><shadow type="radioMessageCode" id="y#W3=pIBz4a{4zryZ^+u"><field name="MEMBER">0Star</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="Bg9m[}l5;jrQO|8LLoQc"><field name="VAR" id="rZz`z{eTkoeyE+?K$a#1">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="(t?$B+_{WH_S-I`ulGid"><value name="img"><shadow type="screen_image_picker" id="ZCI%.BZ8Hb]Bcd[}RoF|"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 9 9 9 . . . . . . . . . 
+. . . . 9 9 9 . . . . . . . . . 
+. . . . 9 9 9 . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"ZCI%.BZ8Hb]Bcd[}RoF|"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Y*/|1oEU@{ocjxc.+7TL"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
